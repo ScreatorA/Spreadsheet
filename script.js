@@ -31,7 +31,7 @@ const charRange = (start, end) =>
   );
 
 const evalFormula = (x, cells) => {
-  idToText = (id) => cells.find((cell) => cell.id === id);
+  idToText = (id) => cells.find((cell) => cell.id === id).value;
 };
 
 window.onload = () => {
