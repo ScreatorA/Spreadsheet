@@ -1,3 +1,5 @@
+const isEven = num => num % 2 === 0 ? true : false;
+
 const sum = (nums) =>
   nums.reduce((total, currentValue) => total + currentValue);
 
