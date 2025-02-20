@@ -3,6 +3,8 @@ const isEven = num => num % 2 === 0 ? true : false;
 const sum = (nums) =>
   nums.reduce((total, currentValue) => total + currentValue);
 
+const average = nums => sum(nums) / nums.length;
+
 const range = (start, end) =>
   Array(end - start + 1)
     .fill(start)
