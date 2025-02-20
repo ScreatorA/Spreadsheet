@@ -53,3 +53,5 @@ window.onload = () => {
     });
   });
 };
+
+const update = event => {};
