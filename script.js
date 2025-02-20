@@ -30,7 +30,9 @@ const charRange = (start, end) =>
     String.fromCharCode(code)
   );
 
-const evalFormula = (x, cells) => {};
+const evalFormula = (x, cells) => {
+  idToText = (id) => cells.find((cell) => cell.id === id);
+};
 
 window.onload = () => {
   const container = document.getElementById("container");
