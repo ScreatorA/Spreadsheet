@@ -15,10 +15,10 @@ const median = (nums) => {
 };
 
 const spreadsheetFunctions = {
-    sum,
-    average,
-    median,
-}
+  sum,
+  average,
+  median,
+};
 
 const range = (start, end) =>
   Array(end - start + 1)
@@ -55,7 +55,8 @@ window.onload = () => {
   });
 };
 
-const update = event => {
-    const element = event.target;
-    const value = event.value.replace(/\s/g, "");
+const update = (event) => {
+  const element = event.target;
+  const value = event.value.replace(/\s/g, "");
+  if(!value.includes(element.id)) {}
 };
