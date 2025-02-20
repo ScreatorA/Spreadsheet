@@ -1,3 +1,5 @@
+const range = (start, end) => Array();
+
 window.onload = () {
     const container = document.getElementById("container");
     const createLabel = name => {
@@ -6,5 +8,4 @@ window.onload = () {
         label.textContent = name;
         container.appendChild(label);
     };
-
 }
